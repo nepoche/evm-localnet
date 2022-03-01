@@ -1,0 +1,43 @@
+{
+  "name": "evm-localnet",
+  "version": "1.0.0",
+  "description": "A local testnet for evm interactions",
+  "main": "index.ts",
+  "author": "nepoche <nepoche@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node localnet.ts"
+  },
+  "dependencies": {
+    "@ethersproject/experimental": "^5.5.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "@webb-tools/protocol-solidity": "file:../test/protocol-solidity/packages/protocol-solidity/lib",
+    "@webb-tools/anchors": "file:../test/protocol-solidity/packages/anchors/lib",
+    "@webb-tools/bridges": "file:../test/protocol-solidity/packages/bridges/lib",
+    "@webb-tools/contracts": "file:../test/protocol-solidity/packages/contracts/lib",
+    "@webb-tools/interfaces": "file:../test/protocol-solidity/packages/interfaces/lib",
+    "@webb-tools/merkle-tree": "file:../test/protocol-solidity/packages/merkle-tree/lib",
+    "@webb-tools/tokens": "file:../test/protocol-solidity/packages/tokens/lib",
+    "@webb-tools/utils": "file:../test/protocol-solidity/packages/utils/lib",
+    "circomlibjs": "^0.0.8",
+    "eth-sig-util": "^3.0.1",
+    "ffjavascript": "^0.2.43",
+    "maci-crypto": "^0.9.1",
+    "circom": "^0.5.45",
+    "dotenv": "^10.0.0",
+    "ethers": "5.5.1",
+    "ganache": "^7.0.0-rc.0",
+    "keccak": "^3.0.1",
+    "node-fetch": "^2.6.1",
+    "snarkjs": "0.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "v14",
+    "@types/node-fetch": "^2.5.11",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.5"
+  }
+}
