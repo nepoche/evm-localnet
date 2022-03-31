@@ -9,26 +9,25 @@
     "start": "npx ts-node localnet.ts"
   },
   "dependencies": {
-    "@ethersproject/experimental": "^5.5.0",
-    "@webb-tools/protocol-solidity": "0.1.7",
-    "@webb-tools/anchors": "0.1.6",
-    "@webb-tools/bridges": "0.1.6",
-    "@webb-tools/contracts": "0.1.4",
-    "@webb-tools/interfaces": "0.1.6",
-    "@webb-tools/merkle-tree": "0.1.6",
-    "@webb-tools/tokens": "0.1.6",
-    "@webb-tools/utils": "0.1.5",
+    "@webb-tools/protocol-solidity": "0.1.11",
+    "@webb-tools/anchors": "0.1.10",
+    "@webb-tools/bridges": "0.1.10",
+    "@webb-tools/contracts": "0.1.7",
+    "@webb-tools/interfaces": "0.1.8",
+    "@webb-tools/merkle-tree": "0.1.10",
+    "@webb-tools/tokens": "0.1.10",
+    "@webb-tools/utils": "0.1.7",
     "dotenv": "^10.0.0",
     "ethers": "5.5.1",
     "ganache": "^7.0.2",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "@types/node": "v14",
+    "@types/node": "v16",
     "@types/node-fetch": "^2.5.11",
     "prettier": "^2.5.1",
-    "ts-node": "^10.4.0",
+    "ts-node": "^10.7.0",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.6.2"
   }
 }

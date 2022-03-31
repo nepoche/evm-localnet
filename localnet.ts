@@ -99,15 +99,15 @@ class LocalChain {
     const zkComponents = await fetchComponentsFromFilePaths(
       path.resolve(
         __dirname,
-        './protocol-solidity-fixtures/fixtures/bridge/2/poseidon_bridge_2.wasm'
+        './protocol-solidity-fixtures/fixtures/anchor/2/poseidon_anchor_2.wasm'
       ),
       path.resolve(
         __dirname,
-        './protocol-solidity-fixtures/fixtures/bridge/2/witness_calculator.js'
+        './protocol-solidity-fixtures/fixtures/anchor/2/witness_calculator.js'
       ),
       path.resolve(
         __dirname,
-        './protocol-solidity-fixtures/fixtures/bridge/2/circuit_final.zkey'
+        './protocol-solidity-fixtures/fixtures/anchor/2/circuit_final.zkey'
       )
     );
 
@@ -267,12 +267,12 @@ async function main() {
   printAvailableCommands();
 
   await webbASignatureToken.mintTokens(
-    '0xd644f5331a6F26A7943CEEbB772e505cDDd21700',
+    '0x510C6297cC30A058F41eb4AF1BFC9953EaD8b577',
     ethers.utils.parseEther('1000')
   );
 
   await webbBSignatureToken.mintTokens(
-    '0xd644f5331a6F26A7943CEEbB772e505cDDd21700',
+    '0x7758F98C1c487E5653795470eEab6C4698bE541b',
     ethers.utils.parseEther('1000')
   );
 
