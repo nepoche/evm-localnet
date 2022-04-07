@@ -765,85 +765,69 @@
   dependencies:
     "@types/node" "*"
 
-"@webb-tools/anchors@0.1.10", "@webb-tools/anchors@^0.1.10":
+"@webb-tools/anchors@file:../protocol-solidity/packages/anchors":
   version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@webb-tools/anchors/-/anchors-0.1.10.tgz#673bd6f80c380467844586cc3f8a93e574861351"
-  integrity sha512-+ysl6kTgHfE6Av8FA7gnkSBD4Rev2Yjw67zmXIIHAEH1q921zv3hkoyon8fYndDUVyC2oUWMLhxFyjNqXGe/Zw==
   dependencies:
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/interfaces" "^0.1.8"
-    "@webb-tools/merkle-tree" "^0.1.10"
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-anchors-0.1.10-eeffe7b2-d0cd-4ac6-bc1a-c782d5c47ee6-1649286926015/node_modules/@webb-tools/contracts"
+    "@webb-tools/interfaces" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-anchors-0.1.10-eeffe7b2-d0cd-4ac6-bc1a-c782d5c47ee6-1649286926015/node_modules/@webb-tools/interfaces"
+    "@webb-tools/merkle-tree" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-anchors-0.1.10-eeffe7b2-d0cd-4ac6-bc1a-c782d5c47ee6-1649286926015/node_modules/@webb-tools/merkle-tree"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-anchors-0.1.10-eeffe7b2-d0cd-4ac6-bc1a-c782d5c47ee6-1649286926015/node_modules/@webb-tools/utils"
     snarkjs "0.4.10"
 
-"@webb-tools/bridges@0.1.10", "@webb-tools/bridges@^0.1.10":
+"@webb-tools/bridges@file:../protocol-solidity/packages/bridges":
   version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@webb-tools/bridges/-/bridges-0.1.10.tgz#f9d61c11fa89466dadabc68997127f65b1e30952"
-  integrity sha512-3moqwtJogR9wDEb/vtQmRKJ9upNtfu0A9LANQT9bt3LnVwXlKitKLKGtofcYeiM9tr+pFZUx4xzFxHMXne8KyQ==
   dependencies:
-    "@webb-tools/anchors" "^0.1.10"
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/interfaces" "^0.1.8"
-    "@webb-tools/tokens" "^0.1.10"
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/anchors" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-bridges-0.1.10-974ca731-99fe-4134-91ed-dfaca7dbffe0-1649286925948/node_modules/@webb-tools/anchors"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-bridges-0.1.10-974ca731-99fe-4134-91ed-dfaca7dbffe0-1649286925948/node_modules/@webb-tools/contracts"
+    "@webb-tools/interfaces" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-bridges-0.1.10-974ca731-99fe-4134-91ed-dfaca7dbffe0-1649286925948/node_modules/@webb-tools/interfaces"
+    "@webb-tools/tokens" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-bridges-0.1.10-974ca731-99fe-4134-91ed-dfaca7dbffe0-1649286925948/node_modules/@webb-tools/tokens"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-bridges-0.1.10-974ca731-99fe-4134-91ed-dfaca7dbffe0-1649286925948/node_modules/@webb-tools/utils"
     circomlibjs "^0.0.8"
     ethers "5.5.1"
     ffjavascript "^0.2.38"
     snarkjs "0.4.10"
 
-"@webb-tools/contracts@0.1.7", "@webb-tools/contracts@^0.1.7":
+"@webb-tools/contracts@file:../protocol-solidity/packages/contracts":
   version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@webb-tools/contracts/-/contracts-0.1.7.tgz#f3de40053be2d71844d4b1c05a254ce3ca3a8fcd"
-  integrity sha512-pbBimVW2OrLaeZZ/yv/9DX+p4pV938QfWATg9aocJNoFBgsgsiyna58cKBiv+p4SSYofp4j8hYW3AZ2/lyW3Ww==
   dependencies:
     "@typechain/ethers-v5" "^7.0.1"
     "@typechain/hardhat" "^2.3.0"
     ethers "5.5.1"
 
-"@webb-tools/interfaces@0.1.8", "@webb-tools/interfaces@^0.1.8":
+"@webb-tools/interfaces@file:../protocol-solidity/packages/interfaces":
   version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@webb-tools/interfaces/-/interfaces-0.1.8.tgz#e1e32040ada92921f270690cc903028685909323"
-  integrity sha512-0NrEj2buuKzYVAJgS4bENLuJWbG27oOnDgoHgQ9lQZO13dZgtF8ayvwDF6yLLgMmt/+qUkvStXA3HAMaNU0zWQ==
   dependencies:
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-interfaces-0.1.8-eaa89f2c-4ce5-4137-8448-9ce042fbd3fb-1649286926023/node_modules/@webb-tools/utils"
 
-"@webb-tools/merkle-tree@0.1.10", "@webb-tools/merkle-tree@^0.1.10":
+"@webb-tools/merkle-tree@file:../protocol-solidity/packages/merkle-tree":
   version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@webb-tools/merkle-tree/-/merkle-tree-0.1.10.tgz#5afae96cf631634c1e58d02509afe18c5a0305f3"
-  integrity sha512-kvk5AZAB1IC/G63eIovGw24oD0Yu3fpJePoVN9lrCApaoe1r2IhHeDErc+A7CsdDyj6KCtsJfzxCgDR5IzAwbA==
   dependencies:
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/interfaces" "^0.1.8"
-    "@webb-tools/tokens" "^0.1.10"
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-merkle-tree-0.1.10-dd043999-c2cd-4895-909f-9c9bdf304348-1649286926018/node_modules/@webb-tools/contracts"
+    "@webb-tools/interfaces" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-merkle-tree-0.1.10-dd043999-c2cd-4895-909f-9c9bdf304348-1649286926018/node_modules/@webb-tools/interfaces"
+    "@webb-tools/tokens" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-merkle-tree-0.1.10-dd043999-c2cd-4895-909f-9c9bdf304348-1649286926018/node_modules/@webb-tools/tokens"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-merkle-tree-0.1.10-dd043999-c2cd-4895-909f-9c9bdf304348-1649286926018/node_modules/@webb-tools/utils"
 
-"@webb-tools/protocol-solidity@0.1.11":
+"@webb-tools/protocol-solidity@file:../protocol-solidity/packages/protocol-solidity":
   version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@webb-tools/protocol-solidity/-/protocol-solidity-0.1.11.tgz#9e00300c79d9456c518f07bebdb52759f50e9ec5"
-  integrity sha512-Lm/arwP0By5MAAgI4vGTHtLrVZ+XpZBqOSqP8Ss5VBG12MuPXal2X6wpe0pAQja1BhRUuqaKQhBuAeioJCCIXA==
   dependencies:
-    "@webb-tools/anchors" "^0.1.10"
-    "@webb-tools/bridges" "^0.1.10"
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/interfaces" "^0.1.8"
-    "@webb-tools/merkle-tree" "^0.1.10"
-    "@webb-tools/tokens" "^0.1.10"
-    "@webb-tools/utils" "^0.1.7"
-    "@webb-tools/vbridge" "^0.1.10"
+    "@webb-tools/anchors" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/anchors"
+    "@webb-tools/bridges" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/bridges"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/contracts"
+    "@webb-tools/interfaces" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/interfaces"
+    "@webb-tools/merkle-tree" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/merkle-tree"
+    "@webb-tools/tokens" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/tokens"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/utils"
+    "@webb-tools/vbridge" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-protocol-solidity-0.1.11-8c6264eb-4b69-44d3-9673-0556b6ca65d0-1649286925943/node_modules/@webb-tools/vbridge"
 
-"@webb-tools/tokens@0.1.10", "@webb-tools/tokens@^0.1.10":
+"@webb-tools/tokens@file:../protocol-solidity/packages/tokens":
   version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@webb-tools/tokens/-/tokens-0.1.10.tgz#697edfe3f218407843f22395ead8a1a8fe105865"
-  integrity sha512-g1asb2YxbeygEW8bhwncHOzYntyWGShrWSWEvvCWp61brwnxCe/niVOaAqA3zWY05orOxRh3+95rokYx2R1n7Q==
   dependencies:
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-tokens-0.1.10-b45b0924-a552-457a-8bfe-e16ae873ad42-1649286926017/node_modules/@webb-tools/contracts"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-tokens-0.1.10-b45b0924-a552-457a-8bfe-e16ae873ad42-1649286926017/node_modules/@webb-tools/utils"
     ethers "5.5.1"
 
-"@webb-tools/utils@0.1.7", "@webb-tools/utils@^0.1.7":
+"@webb-tools/utils@file:../protocol-solidity/packages/utils":
   version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@webb-tools/utils/-/utils-0.1.7.tgz#e0b4de966cbb261af38f76665a7d941ee22c01e5"
-  integrity sha512-kiB0UGYH6jvTiiziawZI4KU+W+W7O9KWaXCDT+lUTCiWXY70GnGOGVZFv44l7MmH2Lr5WlmWqb9oCbiS8rccmg==
   dependencies:
     bn.js "4.11.6"
     circomlibjs "^0.0.8"
@@ -852,15 +836,13 @@
     ethers "5.5.1"
     ffjavascript "^0.2.43"
 
-"@webb-tools/vbridge@^0.1.10":
+"@webb-tools/vbridge@file:../protocol-solidity/packages/vbridge":
   version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@webb-tools/vbridge/-/vbridge-0.1.10.tgz#c499512ab35be8190f75a06444ef5752e45e6cab"
-  integrity sha512-czkBgCAh2DUSGNb8YS5bWbqMKK0dW+JB6LgcOTtUdXRKHWbqHsZG5QtfZ2V2j2dVNInrB3aDB4ynL8yZOPTs+Q==
   dependencies:
-    "@webb-tools/bridges" "^0.1.10"
-    "@webb-tools/contracts" "^0.1.7"
-    "@webb-tools/tokens" "^0.1.10"
-    "@webb-tools/utils" "^0.1.7"
+    "@webb-tools/bridges" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-vbridge-0.1.10-541ad595-6925-4b47-8e53-74fd57b9abd7-1649286926022/node_modules/@webb-tools/bridges"
+    "@webb-tools/contracts" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-vbridge-0.1.10-541ad595-6925-4b47-8e53-74fd57b9abd7-1649286926022/node_modules/@webb-tools/contracts"
+    "@webb-tools/tokens" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-vbridge-0.1.10-541ad595-6925-4b47-8e53-74fd57b9abd7-1649286926022/node_modules/@webb-tools/tokens"
+    "@webb-tools/utils" "file:../../Library/Caches/Yarn/v6/npm-@webb-tools-vbridge-0.1.10-541ad595-6925-4b47-8e53-74fd57b9abd7-1649286926022/node_modules/@webb-tools/utils"
     circomlibjs "^0.0.8"
     ethers "5.5.1"
     ffjavascript "^0.2.38"
@@ -2038,10 +2020,10 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-ganache@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/ganache/-/ganache-7.0.3.tgz#c90a28b039378d2e1b5d9623b354969a1d877070"
-  integrity sha512-1O4V38YkAFd2B1YfBevauEepxEtoN0iTTK02SUJPUIcLOnxwrR49lSDq7liKpUWLkoZCOC2Bkrz/+XJAmEoNAQ==
+ganache@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/ganache/-/ganache-7.0.4.tgz#a1ec33f8e264a7691397dc9efdc4b9f85c8119e4"
+  integrity sha512-/ur2WNQoCwmobZb/TcpMgJlJy4TLtCUMtnCIldChAn5LleeAETaHB80knGqOgGc3ZS+ksokSqmQHuHqMAmlRkg==
   dependencies:
     "@trufflesuite/bigint-buffer" "1.1.9"
     emittery "0.10.0"

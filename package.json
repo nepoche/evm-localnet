@@ -9,17 +9,17 @@
     "start": "npx ts-node localnet.ts"
   },
   "dependencies": {
-    "@webb-tools/protocol-solidity": "0.1.11",
-    "@webb-tools/anchors": "0.1.10",
-    "@webb-tools/bridges": "0.1.10",
-    "@webb-tools/contracts": "0.1.7",
-    "@webb-tools/interfaces": "0.1.8",
-    "@webb-tools/merkle-tree": "0.1.10",
-    "@webb-tools/tokens": "0.1.10",
-    "@webb-tools/utils": "0.1.7",
+    "@webb-tools/protocol-solidity": "file:../protocol-solidity/packages/protocol-solidity",
+    "@webb-tools/anchors": "file:../protocol-solidity/packages/anchors",
+    "@webb-tools/bridges": "file:../protocol-solidity/packages/bridges",
+    "@webb-tools/contracts": "file:../protocol-solidity/packages/contracts",
+    "@webb-tools/interfaces": "file:../protocol-solidity/packages/interfaces",
+    "@webb-tools/merkle-tree": "file:../protocol-solidity/packages/merkle-tree",
+    "@webb-tools/tokens": "file:../protocol-solidity/packages/tokens",
+    "@webb-tools/utils": "file:../protocol-solidity/packages/utils",
     "dotenv": "^10.0.0",
     "ethers": "5.5.1",
-    "ganache": "^7.0.2",
+    "ganache": "^7.0.4",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {

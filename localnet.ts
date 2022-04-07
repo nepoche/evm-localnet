@@ -271,8 +271,18 @@ async function main() {
     ethers.utils.parseEther('1000')
   );
 
+  await webbASignatureToken.mintTokens(
+    '0xd644f5331a6F26A7943CEEbB772e505cDDd21700',
+    ethers.utils.parseEther('1000')
+  );
+
   await webbBSignatureToken.mintTokens(
     '0x7758F98C1c487E5653795470eEab6C4698bE541b',
+    ethers.utils.parseEther('1000')
+  );
+
+  await webbBSignatureToken.mintTokens(
+    '0xd644f5331a6F26A7943CEEbB772e505cDDd21700',
     ethers.utils.parseEther('1000')
   );
 
@@ -311,7 +321,8 @@ async function main() {
     }
 
     if (cmd.startsWith('relay from a to b')) {
-      await (chainASignatureAnchor as unknown as Anchor).update(chainASignatureAnchor.latestSyncedBlock);
+      await chainASignatureAnchor.update();
+      console.log('updated');
       await signatureBridge.updateLinkedAnchors(chainASignatureAnchor);
     }
 
